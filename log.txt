@@ -1,506 +1,42 @@
-Thu Dec 28 15:50:41 2023
+Thu Dec 28 21:01:31 2023
 Windows-10-10.0.19044
 Ren'Py 8.1.3.23091805
  
 
-Bootstrap to the start of init.init. took 0.06s
-Early init. took 0.00s
-Loader init. took 0.08s
-Loading error handling. took 0.05s
-Loading script. took 0.62s
-Loading save slot metadata. took 0.07s
-Loading persistent. took 0.00s
-Running init code. took 0.12s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.13s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.99s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.05s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.15s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init. took 4514.98s
-Early init. took 0.00s
-Loader init. took 0.45s
-Loading error handling. took 0.18s
-Loading script. took 2.34s
-Loading save slot metadata. took 0.22s
-Loading persistent. took 0.00s
-
-Full traceback:
-  File "game/script.rpy", line 12, in script
-    define communication = Fasle
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 2508, in execute
-    self.set()
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 2522, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 12, in <module>
-    define communication = Fasle
-NameError: name 'Fasle' is not defined
-
-While running game code:
-  File "game/script.rpy", line 12, in script
-    define communication = Fasle
-  File "game/script.rpy", line 12, in <module>
-    define communication = Fasle
-NameError: name 'Fasle' is not defined
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 1.71s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 4521.10s
-Early init. took 0.00s
-Loader init. took 0.07s
-Loading error handling. took 0.05s
-Loading script. took 0.22s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-
-Full traceback:
-  File "game/script.rpy", line 12, in script
-    define communication = Fasle
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 2508, in execute
-    self.set()
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 2522, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 12, in <module>
-    define communication = Fasle
-NameError: name 'Fasle' is not defined
-
-While running game code:
-  File "game/script.rpy", line 12, in script
-    define communication = Fasle
-  File "game/script.rpy", line 12, in <module>
-    define communication = Fasle
-NameError: name 'Fasle' is not defined
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 1.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 4523.71s
-Early init. took 0.00s
-Loader init. took 0.07s
-Loading error handling. took 0.05s
-Loading script. took 0.23s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-Full traceback:
-  File "game/script.rpy", line 12, in script
-    define communication = Fasle
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 2508, in execute
-    self.set()
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 2522, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 12, in <module>
-    define communication = Fasle
-NameError: name 'Fasle' is not defined
-
-While running game code:
-  File "game/script.rpy", line 12, in script
-    define communication = Fasle
-  File "game/script.rpy", line 12, in <module>
-    define communication = Fasle
-NameError: name 'Fasle' is not defined
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 1.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 4555.39s
-Early init. took 0.00s
+Bootstrap to the start of init.init. took 0.11s
+Early init. took 0.01s
 Loader init. took 0.12s
-Loading error handling. took 0.06s
-Loading script. took 0.61s
-Loading save slot metadata. took 0.08s
+Loading error handling. took 0.07s
+Loading script. took 1.29s
+Loading save slot metadata. took 0.17s
 Loading persistent. took 0.00s
-Running init code. took 0.16s
+ - Init at renpy/common/00console.rpy:125 took 0.68889 s.
+Running init code. took 1.03s
 Loading analysis data. took 0.04s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.31s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.08s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
 Dump and make backups. took 0.17s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.09s
+Initial gc. took 0.04s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 2.47s
+Creating interface object. took 1.13s
 Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.02s
-Save screen analysis took 0.04s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.06s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init. took 6221.57s
-Early init. took 0.00s
-Loader init. took 0.15s
-Loading error handling. took 0.06s
-Loading script. took 0.40s
-Loading save slot metadata. took 0.06s
-Loading persistent. took 0.00s
-Running init code. took 0.10s
-Loading analysis data. took 0.06s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.26s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.13s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 1.40s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.02s
-Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.09s
-Prepare screens took 0.15s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-
-Full traceback:
-  File "game/script.rpy", line 116, in script
-    "Все остальные члены команды уже были на месте и ждали только Джейсона."
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 930, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\exports.py", line 1474, in say
-    who(what, *args, **kwargs)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\character.py", line 1352, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\character.py", line 1003, in do_display
-    display_say(who,
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\character.py", line 693, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 3582, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 4175, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 2782, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\layout.py", line 888, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\layout.py", line 888, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\layout.py", line 888, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\transform.py", line 909, in render
-    return RenderTransform(self).render(width, height, st, at)
-  File "accelerator.pyx", line 979, in renpy.display.accelerator.RenderTransform.render
-  File "accelerator.pyx", line 404, in renpy.display.accelerator.RenderTransform.render_child
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\image.py", line 513, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\image.py", line 316, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\im.py", line 676, in render
-    return cache.get(self, render=True)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\im.py", line 330, in get
-    surf = image.load()
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\im.py", line 803, in load
-    raise e
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\im.py", line 757, in load
-    filelike = renpy.loader.load(self.filename, directory="images")
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\loader.py", line 833, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/Emily/emily.png'.
-
-While loading <renpy.display.im.Image object ('images/Emily/emily.png') at 0x0000000003da6160>:
-  File "game/script.rpy", line 116, in script
-    "Все остальные члены команды уже были на месте и ждали только Джейсона."
-OSError: Couldn't find file 'images/Emily/emily.png'.
-Resetting cache.
-Bootstrap to the start of init.init. took 8860.62s
-Early init. took 0.00s
-Loader init. took 0.07s
-Loading error handling. took 0.05s
-Loading script. took 0.39s
-Loading save slot metadata. took 0.06s
-Loading persistent. took 0.00s
-Running init code. took 0.08s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.06s
-Index archives took 0.00s
-Dump and make backups. took 0.11s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.10s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 1.21s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init. took 9410.62s
-Early init. took 0.00s
-Loader init. took 0.09s
-Loading error handling. took 0.04s
-Loading script. took 0.60s
-Loading save slot metadata. took 0.07s
-Loading persistent. took 0.00s
-Running init code. took 0.08s
-Loading analysis data. took 0.04s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.20s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.11s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 1.57s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 9584.02s
-Early init. took 0.00s
-Loader init. took 0.08s
-Loading error handling. took 0.04s
-Loading script. took 0.51s
-Loading save slot metadata. took 0.19s
-Loading persistent. took 0.00s
-Running init code. took 0.36s
-Loading analysis data. took 0.05s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.10s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.30s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.10s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 1.30s
-Cleaning stores took 0.00s
-Init translation took 0.08s
+Init translation took 0.10s
 Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.04s
 Save screen analysis took 0.05s
-Prepare screens took 0.15s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.03s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.09s
+Interface start. took 0.22s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -512,259 +48,36 @@ Version: b'4.6.0 - Build 31.0.101.2115'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 62, in script
-    show jason happy at right
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 1428, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 1391, in show_imspec
-    renpy.config.show(name,
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\exports.py", line 733, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 499, in _duplicate
-    args.extraneous()
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 362, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'jason' does not accept attributes 'happy'.
-
-While running game code:
-  File "game/script.rpy", line 62, in script
-    show jason happy at right
-Exception: Image 'jason' does not accept attributes 'happy'.
 Resetting cache.
-Bootstrap to the start of init.init. took 9594.66s
+Bootstrap to the start of init.init. took 588.33s
 Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.03s
-Loading script. took 0.22s
-Loading save slot metadata. took 0.06s
+Loader init. took 0.10s
+Loading error handling. took 0.09s
+Loading script. took 0.48s
+Loading save slot metadata. took 0.08s
 Loading persistent. took 0.00s
 Running init code. took 0.10s
 Loading analysis data. took 0.04s
 Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.10s
-Index archives took 0.00s
-Dump and make backups. took 0.23s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.78s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 62, in script
-    show jason happy at right
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 1428, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 1391, in show_imspec
-    renpy.config.show(name,
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\exports.py", line 733, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 499, in _duplicate
-    args.extraneous()
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 362, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'jason' does not accept attributes 'happy'.
-
-While running game code:
-  File "game/script.rpy", line 62, in script
-    show jason happy at right
-Exception: Image 'jason' does not accept attributes 'happy'.
-Resetting cache.
-Bootstrap to the start of init.init. took 9624.22s
-Early init. took 0.00s
-Loader init. took 0.08s
-Loading error handling. took 0.04s
-Loading script. took 0.49s
-Loading save slot metadata. took 0.27s
-Loading persistent. took 0.00s
-Running init code. took 0.20s
-Loading analysis data. took 0.06s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.09s
+Reloading save slot metadata. took 0.08s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.14s
+Dump and make backups. took 0.24s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
 Initial gc. took 0.07s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.88s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 9694.87s
-Early init. took 0.00s
-Loader init. took 0.08s
-Loading error handling. took 0.04s
-Loading script. took 0.62s
-Loading save slot metadata. took 0.11s
-Loading persistent. took 0.00s
-Running init code. took 0.17s
-Loading analysis data. took 0.04s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.11s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.29s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.11s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 1.26s
+Creating interface object. took 1.55s
 Cleaning stores took 0.00s
 Init translation took 0.10s
 Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.03s
 Save screen analysis took 0.04s
-Prepare screens took 0.16s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 9778.40s
-Early init. took 0.00s
-Loader init. took 0.08s
-Loading error handling. took 0.04s
-Loading script. took 0.66s
-Loading save slot metadata. took 0.11s
-Loading persistent. took 0.00s
-Running init code. took 0.09s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.10s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.10s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 1.05s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
 Prepare screens took 0.13s
 Save pyanalysis. took 0.03s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 9819.27s
-Early init. took 0.00s
-Loader init. took 0.07s
-Loading error handling. took 0.03s
-Loading script. took 0.34s
-Loading save slot metadata. took 0.08s
-Loading persistent. took 0.00s
-Running init code. took 0.12s
-Loading analysis data. took 0.04s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.23s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.12s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 1.72s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.04s
-Prepare screens took 0.22s
-Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
@@ -780,143 +93,39 @@ Version: b'4.6.0 - Build 31.0.101.2115'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
 Resetting cache.
-Bootstrap to the start of init.init. took 10702.84s
-Early init. took 0.00s
-Loader init. took 0.27s
-Loading error handling. took 0.69s
-Loading script. took 1.56s
-Loading save slot metadata. took 0.11s
-Loading persistent. took 0.00s
-Running init code. took 0.12s
-Loading analysis data. took 0.03s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.10s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.36s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.09s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 2.00s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.04s
-Save screen analysis took 0.07s
-Prepare screens took 0.23s
-Save pyanalysis. took 0.09s
-Save bytecode. took 0.06s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 10769.33s
+Bootstrap to the start of init.init. took 595.70s
 Early init. took 0.00s
 Loader init. took 0.08s
 Loading error handling. took 0.03s
-Loading script. took 0.24s
-Loading save slot metadata. took 0.06s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.05s
 Loading persistent. took 0.00s
-Running init code. took 0.07s
-Loading analysis data. took 0.02s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
 Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.05s
 Index archives took 0.00s
-Dump and make backups. took 0.09s
+Dump and make backups. took 0.10s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
 Initial gc. took 0.05s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 1.24s
+Creating interface object. took 1.12s
 Cleaning stores took 0.00s
 Init translation took 0.06s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.05s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.15s
+Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 610'
-Version: b'4.6.0 - Build 31.0.101.2115'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.06s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init. took 10873.69s
-Early init. took 0.00s
-Loader init. took 0.10s
-Loading error handling. took 0.05s
-Loading script. took 0.40s
-Loading save slot metadata. took 0.07s
-Loading persistent. took 0.00s
-Running init code. took 0.11s
-Loading analysis data. took 0.03s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\farle\\AppData\\Roaming/RenPy/backups\\The-leader-of-the-team':
-Dump and make backups. took 0.18s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.09s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 2.17s
-Cleaning stores took 0.00s
-Init translation took 0.11s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.07s
+Interface start. took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
