@@ -1,28 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 76, in script
-    hide boss with easyoutleft
-  File "game/script.rpy", line 76, in <module>
-    hide boss with easyoutleft
-NameError: name 'easyoutleft' is not defined
+  File "game/script.rpy", line 62, in script
+    show jason happy at right
+Exception: Image 'jason' does not accept attributes 'happy'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 76, in script
-    hide boss with easyoutleft
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 1674, in execute
-    paired = renpy.python.py_eval(self.paired)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\python.py", line 1153, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Program Files\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 76, in <module>
-    hide boss with easyoutleft
-NameError: name 'easyoutleft' is not defined
+  File "game/script.rpy", line 62, in script
+    show jason happy at right
+  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 1428, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Program Files\renpy-8.1.3-sdk\renpy\ast.py", line 1391, in show_imspec
+    renpy.config.show(name,
+  File "C:\Program Files\renpy-8.1.3-sdk\renpy\exports.py", line 733, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 499, in _duplicate
+    args.extraneous()
+  File "C:\Program Files\renpy-8.1.3-sdk\renpy\display\core.py", line 362, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'jason' does not accept attributes 'happy'.
 
 Windows-10-10.0.19044 AMD64
 Ren'Py 8.1.3.23091805
-Лидер команды: Испытание руководителя 1.0
-Sun Dec 17 22:57:09 2023
+Лидер команды: Испытание руководителя 
+Thu Dec 28 18:30:38 2023
